@@ -636,3 +636,13 @@ p {
   height: 581px;
   background-color: var(--primary-color);
 }
+.modal-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  border-radius: 50%;
+  min-width: 30px;
+  min-height: 30px;
+  background-color: transparent;
+}
