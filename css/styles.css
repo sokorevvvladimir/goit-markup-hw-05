@@ -307,7 +307,20 @@ p {
   height: 100%;
   top: 0;
   left: 0;
+  background-color: var(--accent-color);
+  opacity: 0.9;
+  padding: 63px 24px;
+
   transform: translatey(100%);
+}
+.overlay > p {
+  color: var(--primary-color);
+
+  font-style: normal
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
 }
 .portfolio.link:hover .overlay,
 .portfolio.link:focus .overlay {
